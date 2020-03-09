@@ -19,20 +19,20 @@ Allows the creation of a single user
 #### Parameters :
 ```javascript
 {
-    'first_name': 'Sébastien', //optional,
-    'last_name': 'NOBOUR', // optional
-    'email': 'myemail@gmail.com', // required
+    'first_name': 'Timothée', //optional,
+    'last_name': 'GUERREAU', // optional
+    'email': 'elchapito@gmail.com', // required
     'password': '123456789', //required
-    'age': 25, //optional
+    'age': 20, //optional
     'gender': 'm', //optional
-    'height': 1.73, //optional
-    'weight': 98,
-    'city': 'Versailles', //optional
-    'city_code': '78000', //optional
-    'street_number': 12, //optional
+    'height': 2.83, //optional
+    'weight': 145,
+    'city': 'godCity', //optional
+    'city_code': '77710', //optional
+    'street_number': 7, //optional
     'street_type': 'rue', //optional
-    'street_name': 'de Paris', //optional
-    'phone': '0655555500', //optional
+    'street_name': 'du paradis', //optional
+    'phone': '07 77 77 77 10', //optional
     'image_profil': 'https://randomuser.me/api/portraits/men/86.jpg' //optional
 }
 
@@ -43,21 +43,20 @@ Allows the creation of a single user
 
 ```javascript
 {
-    'id': '1234456ID', //optional
-    'first_name': 'Sébastien', //optional,
-    'last_name': 'NOBOUR', // optional
-    'email': 'myemail@gmail.com', // required
+    'first_name': 'Timothée', //optional,
+    'last_name': 'GUERREAU', // optional
+    'email': 'elchapito@gmail.com', // required
     'password': '123456789', //required
-    'age': 25, //optional
+    'age': 20, //optional
     'gender': 'm', //optional
-    'height': 1.73, //optional
-    'weight': 98,
-    'city': 'Versailles', //optional
-    'city_code': '78000', //optional
-    'street_number': 12, //optional
+    'height': 2.83, //optional
+    'weight': 145,
+    'city': 'godCity', //optional
+    'city_code': '77710', //optional
+    'street_number': 7, //optional
     'street_type': 'rue', //optional
-    'street_name': 'de Paris', //optional
-    'phone': '0655555500', //optional
+    'street_name': 'du paradis', //optional
+    'phone': '07 77 77 77 10', //optional
     'image_profil': 'https://randomuser.me/api/portraits/men/86.jpg' //optional
 }
 
