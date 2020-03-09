@@ -1,0 +1,6 @@
+const Server = require('./app/server.js')
+// const mongoose = require('mongoose')
+const server = new Server()
+server.run()
+// let users = mongoose.model('users')
+// console.log(users)
