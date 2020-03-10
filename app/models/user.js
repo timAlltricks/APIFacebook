@@ -1,10 +1,10 @@
 const mongoose = require('mongoose')
 
-const Schema = new mongoose.Schema({
-  first_name: String,
-  last_name: String,
+const userSchema = new mongoose.Schema({
   city: String,
   gender: String,
+  first_name: String,
+  last_name: String,
   email: {
     type: String,
     required: true
@@ -14,6 +14,8 @@ const Schema = new mongoose.Schema({
     required: true
   },
   age: Number,
+  height: Number,
+  weight: Number,
   city_code: String,
   street_number: Number,
   street_type: String,
@@ -35,4 +37,4 @@ const Schema = new mongoose.Schema({
   }
 })
 
-module.exports = Schema
+module.exports = userSchema

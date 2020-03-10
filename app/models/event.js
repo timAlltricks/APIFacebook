@@ -41,7 +41,7 @@ const eventSchema = new mongoose.Schema({
   album: mongoose.ObjectId,
   poll: mongoose.ObjectId,
   ticketing: mongoose.ObjectId,
-  shoppingListOn: Boolean,
+  shopping: Boolean,
   shoppingList: Array,
   covoiturage: Boolean,
   covoiturageList: Array

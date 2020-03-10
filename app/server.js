@@ -76,6 +76,12 @@ class Server {
     new routes.events.UpdateEvent(this.app, this.connect)
     new routes.events.DeleteEvent(this.app, this.connect)
 
+    // Album
+    new routes.albums.CreateAlbum(this.app, this.connect)
+    new routes.albums.ShowAlbum(this.app, this.connect)
+    new routes.albums.UpdateAlbum(this.app, this.connect)
+    new routes.albums.DeleteAlbum(this.app, this.connect)
+
     this.app.use((req, res) => {
       res.status(404).json({
         'code': 404,

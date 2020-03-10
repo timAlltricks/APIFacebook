@@ -11,7 +11,7 @@ const groupSchema = new mongoose.Schema({
   },
   icon: {
     type: String,
-    default: "https://fontawesome.com/icons/Groups?style=solid",
+    default: 'https://fontawesome.com/icons/Groups?style=solid',
     required: true
   },
   photo: {
@@ -19,7 +19,7 @@ const groupSchema = new mongoose.Schema({
     required: true
   },
   group_type: {
-    type: Number, //# 1=public 2=private secret=3
+    type: Number, // 1=public 2=private secret=3
     required: true
   },
   membersCanPubli: {
@@ -41,15 +41,8 @@ const groupSchema = new mongoose.Schema({
   conversation: mongoose.ObjectId,
   events: Array
 }, {
-  collection: 'groups',
   minimize: false,
   versionKey: false
-}).set('toJSON', {
-  transform: (doc, ret) => {
-    ret.id = ret._id
-
-    delete ret._id
-  }
 })
 
 module.exports = groupSchema

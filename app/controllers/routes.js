@@ -16,6 +16,18 @@ const ShowEvent = require('./events/show.js')
 const UpdateEvent = require('./events/update.js')
 const DeleteEvent = require('./events/delete.js')
 
+// Album
+const CreateAlbum = require('./albums/create.js')
+const ShowAlbum = require('./albums/show.js')
+const UpdateAlbum = require('./albums/update.js')
+const DeleteAlbum = require('./albums/delete.js')
+
+// Prototype
+/* const CreateCamel = require('./minuscules/create.js')
+const ShowCamel = require('./minuscules/show.js')
+const UpdateCamel = require('./minuscules/update.js')
+const DeleteCamel = require('./minuscules/delete.js') */
+
 module.exports = {
   users: {
     CreateUser,
@@ -34,6 +46,12 @@ module.exports = {
     ShowEvent,
     UpdateEvent,
     DeleteEvent
+  },
+  albums: {
+    CreateAlbum,
+    ShowAlbum,
+    UpdateAlbum,
+    DeleteAlbum
   }
 }
 
